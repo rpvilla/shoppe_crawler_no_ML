@@ -1,0 +1,15 @@
+1) install python 3.9 (https://www.python.org/downloads/release/python-390/)
+2) install pip manager (https://pip.pypa.io/en/stable/installation/#get-pip-py)
+3) install all the dependencies (py -3.9 -m pip install -r requirements.txt)
+4) update the url of the input file
+5) run the crawler (main.py)
+6) after running the crawler check the file (PROD-FAIL-TO-SCRAPE {date_crawled}.xlsx)
+7) if there are item that unsuccessfully crawled then put it on the folder "recrawling_input"
+8) run the recrawler(recrawler.py) to get the unsuccessful item on the file (PROD-FAIL-TO-SCRAPE {date_crawled}.xlsx)
+9) put all the crawled item on the input file to check if we successfully crawled the estimated 
+   number of item to be crawled then if not run the crawler(main.py) 
+
+
+- add merging for all week
+
+
